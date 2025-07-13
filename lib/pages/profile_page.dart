@@ -30,7 +30,7 @@ class ProfilePage extends StatelessWidget {
               leading: const Icon(Icons.task),
               title: const Text('My Tasks'),
               onTap: () {
-                Navigator.pop(context); // Close the drawer
+                Navigator.pop(context); 
                 Navigator.pushReplacementNamed(context, '/tasks');
               },
             ),
@@ -42,7 +42,7 @@ class ProfilePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             const SizedBox(height: 20),
-            // Profile Picture with optional label
+          
             Stack(
               alignment: Alignment.bottomRight,
               children: [
@@ -131,7 +131,6 @@ class ProfilePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 30),
-            // Self-Introduction Container
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 20),
               padding: const EdgeInsets.all(15),
@@ -144,7 +143,7 @@ class ProfilePage extends StatelessWidget {
                     color: Colors.grey.withOpacity(0.3),
                     spreadRadius: 2,
                     blurRadius: 5,
-                    offset: const Offset(0, 3), // changes position of shadow
+                    offset: const Offset(0, 3), 
                   ),
                 ],
               ),

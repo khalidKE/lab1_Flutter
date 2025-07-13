@@ -156,7 +156,7 @@ class _TasksPageState extends State<TasksPage> {
           ),
           FloatingActionButton(
             onPressed: _incrementCounter,
-            heroTag: 'incrementBtn', // Unique tag for multiple FABs
+            heroTag: 'incrementBtn', 
             child: const Icon(Icons.add),
           ),
         ],
